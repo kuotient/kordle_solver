@@ -205,16 +205,4 @@ def run(solver):
     
 
 solver = KordleSolver()
-# guess = 'ㅈㅣㄴㅊㅜㄹ'
-# color = 'XCXXXX'
-# words = solver.update(guess, color)
-# print(words)
-# guess = 'ㅁㅣㄷㅇㅡㅁ'
-# color = 'XCXLXX'
-# words = solver.update(guess, color)
-# print(words)
-
 run(solver)
-
-# letter_counts = KordleSolver._get_letter_ranges(solver.solution_list)
-# print(letter_counts)
